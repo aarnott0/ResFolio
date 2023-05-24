@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> ResFolio </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <header>
+
+            <img src="Images/banner.png" alt="banner" width="1200" height="606">
+            <h1 id="Resfolio"> Resfolio </h1>
+            <h2>Contact Us</h2>
+
+        </header>
+
+        <!-- =============== NAVIGATION =============== -->
+        <nav>
+            <ul>
+                <li><a href="Index.html" title="Resfolio">Home</a></li>
+                <li><a href="Resume.html" title="extra resources">Resume</a></li>
+                <li><a href="Portfolio.html" title="How to create a portfolio">Portfolio</a></li>
+            </ul>
+            
+            <p> OTHER SECTIONS</p>
+            
+            <ul>
+                <li><a href="RelatedArticles.html" title="extra resources">Related Articles</a>
+                </li>
+            </ul>
+        </nav>
+
+        <p id="suggestion">If you have a question about a specific article, <br> or a personal question related to that article, <br> please submit your question in the subject box.
+        </p>
+        <h2> Contact Form </h2>
+
+        <div class="container">
+            <form action="action_page.php">
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+                
+            </form>
+        </div>
+        <section>
+           <h2> Visit Us </h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3386.4892110145047!2d115.86414557683466!3d-31.92047297403333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a32bbe63104eed7%3A0xe453646d5e290b1d!2s2%20Bradford%20St%2C%20Mount%20Lawley%20WA%206050!5e0!3m2!1sen!2sau!4v1684583219822!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+        </section>
+        
+    </div>
