@@ -1,0 +1,227 @@
+/* Author: Ann Arnott
+Date: 25 05 2023
+Version:
+*/
+
+/*
+COLOURS
+#c3d3e3 - Light blue
+#637b97 - Medium Blue
+#4a5c72 - Dark Blue
+#d7ecdf - Light Green
+#04AA6D - Medium Green
+#45a049 - Dark Green
+#ccc - Gray
+#f2f2f2 - Off White
+
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Spinnaker&display=swap');
+/* For some unknown reason - Jo and I have been unable to activate a change of FONT */
+
+
+/*GLOBAL SETTING__________________________
+*/
+#wrapper {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#wrapperResume{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: white;  
+}
+
+#wrapperPortfolio{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: white;   
+}
+
+#wrapperRelatedArticles{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: white;   
+}
+
+h1 {
+    margin-bottom: 0px;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+h2 {
+    margin-top: 0px;
+    font-size: 36px;
+}
+
+p {
+       font-size: 20px;
+}
+
+
+/*HEADER___________________________________
+*/
+header {
+    background-color: #FFFFFF 
+}
+ 
+
+/*NAVIGATION ______________________________
+*/
+/* Adding a background box with colour to the links */ 
+nav {
+    
+    display: block;
+    position:static;
+    font-size: 100%;  /* Text */ 
+    font-weight: bold;
+    line-height: 1.65em;
+    color: #4a5c72;
+    float: right;
+    background-color: #c3d3e3; 
+    border-radius: 6px;
+    width: 180px; 
+    padding: 0px 15px 15px 15px;
+    margin:0px 0 10px 0px;
+    top: 0px; left: 0px;   
+}
+
+nav ul {
+    padding-left: 0px;
+    list-style: none;
+}
+
+nav li {
+    display:list-item;
+}
+
+nav a {
+    color: #4a5c72; 
+    text-decoration: none;  
+}
+
+nav p {
+    border-bottom: solid;
+    margin: 0px;   
+}
+
+nav a:visited {
+    color: #637b97;
+}
+
+/* When moving the mouse over the page titles, colour white */
+nav a:hover {
+    background-color:white;    
+}
+
+
+/* CONTENT 1 _________________________________
+*/
+article h2 {
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+
+/* BLOCKQUOTE ________________________________
+*/ 
+/* Adding a background colour */
+blockquote {
+    font-size: 100%;
+    text-align: center;
+    background-color: #d7ecdf;
+    width: 325px;
+} 
+
+
+/* CONTACT FORM______________________________
+*/
+#suggestion {
+    width: 400px;
+    margin-bottom: 250px;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Submit button has a specific background colour - Medium Green */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, a Darker Green appears */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Adding a background colour and some padding around the form */
+.container {
+  margin-top: 50px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+/* FOOTER ___________________________________
+*/
+/* Adding a background colour for all footer information - Medium Blue
+Padding and Margins around the text */
+
+footer  {
+    margin-top: 100px;
+}
+footer{
+    color: white; /* Text  */
+    padding: 50px;
+	display: flex;
+	font-size: 70%;
+	justify-content: space-evenly;
+}
+
+footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #637b97;
+}
+footer ul {
+	list-style: none;
+	
+}
+
+footer li {
+	display: inline;
+	padding: 5px 10px 5px;
+}
+
+address {
+    font-style: normal;
+        
+        
+
+
+        
+        
+/*   Thank you Jo for a wonderful 1st Semester of the year, I thoroughly enjoyed this unit! and look forward to seeing you again next semester     */
+        
+        
